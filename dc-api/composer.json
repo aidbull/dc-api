@@ -1,0 +1,22 @@
+{
+    "name": "aidbull/dc-api",
+    "description": "Client service for Debit Cards API. Made for Fayrix.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "billyHomeless",
+            "email": "aydmir@live.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DebitCardsAPI\\": "src/"
+        }
+    }
+}
