@@ -4,6 +4,7 @@ namespace DebitCardsAPI\DTOs;
 
 class CardDTO
 {
+    public $id;
     public $first_name;
     public $last_name;
     public $address;
@@ -17,6 +18,7 @@ class CardDTO
 
     public function __construct(array $data)
     {
+        $this->id = $data['id'] ?? null;
         $this->first_name = $data['first_name'];
         $this->last_name = $data['last_name'];
         $this->address = $data['address'];

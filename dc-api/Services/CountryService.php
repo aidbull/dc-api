@@ -2,6 +2,8 @@
 
 namespace DebitCardsAPI;
 
+use DebitCardsAPI\DTOs\CountryDTO;
+
 class CountryService
 {
     protected DebitCards $client;
@@ -10,12 +12,32 @@ class CountryService
         $this->client = $client;
     }
 
-    public function __invoke()
+    /**
+     * @return CountryDTO[]
+     */
+    public function __invoke(): array
     {
-        return $this->client->request('get', 'countries');
+        $countries = [];
+        $response = $this->client->request('get', 'countries');
+
+        if ($response->json('error')) {
+            return $countries;
+        }
+
+        foreach ($response->json('countries') as $country) {
+            $countries[] = new CountryDTO($country);
+        }
+
+        return $countries;
     }
 
     public function get(int $countryId) {
-        return $this->client->request('get', "countries/{$countryId}");
+        $response = $this->client->request('get', "countries/{$countryId}");
+
+        if ($response->json('error')) {
+            return null;
+        }
+
+        return new CountryDTO($response->json());
     }
 }
