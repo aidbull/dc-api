@@ -1,7 +1,8 @@
 {
     "name": "aidbull/dc-api",
+    "version": "1.0.0",
     "description": "Client service for Debit Cards API. Made for Fayrix.",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -17,6 +18,13 @@
     "autoload": {
         "psr-4": {
             "DebitCardsAPI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DebitCardsAPI\\DebitCardsAPIServiceProvider"
+            ]
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace DebitCardsAPI;
 
-class Country
+class CountryService
 {
     protected DebitCards $client;
 
@@ -15,7 +15,7 @@ class Country
         return $this->client->request('get', 'countries');
     }
 
-    public function get($id) {
-        return $this->client->request('get', "countries/{$id}");
+    public function get(int $countryId) {
+        return $this->client->request('get', "countries/{$countryId}");
     }
 }
