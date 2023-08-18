@@ -24,11 +24,9 @@ class CountryService
             return $countries;
         }
 
-        foreach ($response->json('countries') as $country) {
-            $countries[] = new CountryDTO($country);
-        }
-
-        return $countries;
+        return array_map(function($country) {
+            return new CountryDTO($country);
+        }, $response->json('countries'));
     }
 
     public function get(int $countryId) {
