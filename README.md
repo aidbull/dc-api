@@ -1,4 +1,4 @@
-# dc-api
+# ⭐ dc-api
 Debit Card API for Fayrix.
 
 ## Endpoints
