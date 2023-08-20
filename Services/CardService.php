@@ -21,34 +21,19 @@ class CardService
     public function get(int $cardId): CardDTO|null
     {
         $response = $this->client->request('get', "cards/{$cardId}");
-
-        if ($response->json('error')) {
-            return null;
-        }
-
-        return new CardDTO($response->json());
+        return $response ? new CardDTO($response) : null;
     }
 
     public function balance(int $cardId): float|null
     {
         $response = $this->client->request('get', "cards/{$cardId}/balance");
-
-        if ($response->json('error')) {
-            return null;
-        }
-
-        return floatval($response->json('balance'));
+        return $response ? floatval($response['balance']) : null;
     }
 
     public function pin(int $cardId): int|null
     {
         $response = $this->client->request('get', "cards/{$cardId}/pin");
-
-        if ($response->json('error')) {
-            return null;
-        }
-
-        return intval($response->json('pin'));
+        return $response ? intval($response['pin']) : null;
     }
 
     public function history(int $cardId, DateTime $startDate, DateTime $endDate)
@@ -68,12 +53,7 @@ class CardService
     public function create(CardDTO $cardData): CardDTO|null
     {
         $response = $this->client->request('post', "cards/create", $cardData->toArray());
-
-        if ($response->json('error')) {
-            return null;
-        }
-
-        return new CardDTO($response->json());
+        return $response ? new CardDTO($response) : null;
     }
 
     public function deactivate(int $cardId)

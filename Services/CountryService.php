@@ -20,22 +20,13 @@ class CountryService
         $countries = [];
         $response = $this->client->request('get', 'countries');
 
-        if ($response->json('error')) {
-            return $countries;
-        }
-
-        return array_map(function($country) {
+        return $response ? array_map(function($country) {
             return new CountryDTO($country);
-        }, $response->json('countries'));
+        }, $response['countries']) : $countries;
     }
 
     public function get(int $countryId) {
         $response = $this->client->request('get', "countries/{$countryId}");
-
-        if ($response->json('error')) {
-            return null;
-        }
-
-        return new CountryDTO($response->json());
+        return new CountryDTO($response);
     }
 }

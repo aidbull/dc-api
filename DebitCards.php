@@ -33,11 +33,11 @@ class DebitCards
                 throw new \Exception('Request error: ' . $response->body());
             }
 
-            return $response;
+            return $response->json();
         } catch (\Exception $exception) {
             Log::error('Error in DebitCardsAPI: ' . $exception->getMessage());
 
-            return response()->json(['error' => 'Unknown error.'], 500);
+            return null;
         }
     }
 }
