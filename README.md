@@ -40,3 +40,13 @@ Countries:
    - get(int $countryId): CountryDTO|null
  
 ## Installation
+
+Add a package via composer:
+```
+composer require aidbull/dc-api
+```
+
+Register service provider (to set config):
+```
+php artisan vendor:publish --tag=config --provider="DebitCardsAPI\DebitCardsAPIServiceProvider"
+```
