@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<complexes>
+<complex>
+    <id>121792</id>
+    <name>ЖК "Flagman aqua" (Флагман аква)</name>
+    <address>Кабардино-Балкарская Республика, г. Нальчик, мкр. Восточный</address>
+    <latitude>43.481258392333984</latitude>
+    <longitude>43.651737213134766</longitude>
+    <images>
+        <image>https://fl07.ru/upload/iblock/b09/5u33axvkl2a2iowyjyuvo4uh21c20xf1/Screenshot_22.png</image>
+    </images>
+
+    <buildings>
+        <building>
+            <id>184330</id>
+            <fz_214>1</fz_214>
+            <name>Корпус 1</name>
+            <building_state>unfinished</building_state>
+            <built_year>2029</built_year>
+            <ready_quarter>4</ready_quarter>
+            <floors>13</floors>
+            <flats>
+                <flat>
+                    <flat_id>49</flat_id>
+                    <apartment>49</apartment>
+                    <floor>8</floor>
+                    <room>2</room>
+                    <price>3312090</price>
+                    <area>38.57</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>6.22</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/1ee/e9vwub0vsy4yjf8k5q660e24cfkhm5ix/1%20(42).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>50</flat_id>
+                    <apartment>50</apartment>
+                    <floor>8</floor>
+                    <room>2</room>
+                    <price>4555320</price>
+                    <area>52.36</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>10.4</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/847/yhcx83jsf1m8r6nn81cjy0s2sz5f5eps/2%20(2).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>51</flat_id>
+                    <apartment>51</apartment>
+                    <floor>8</floor>
+                    <room>4</room>
+                    <price>5880330</price>
+                    <area>67.59</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>6.77</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/18d/4yfrdsd40upvh3y8qadvzonk3xxv4xkt/2%20(3).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>52</flat_id>
+                    <apartment>52</apartment>
+                    <floor>8</floor>
+                    <room>2</room>
+                    <price>4035930</price>
+                    <area>46.39</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>6.43</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/c42/a8dg1x6iek3e4yqwqoo2t3n59aenxdrm/2%20(30).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>53</flat_id>
+                    <apartment>53</apartment>
+                    <floor>8</floor>
+                    <room>2</room>
+                    <price>4027230</price>
+                    <area>46.29</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>6.43</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/c42/a8dg1x6iek3e4yqwqoo2t3n59aenxdrm/2%20(30).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>54</flat_id>
+                    <apartment>54</apartment>
+                    <floor>8</floor>
+                    <room>4</room>
+                    <price>6538050</price>
+                    <area>75.15</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>6.39</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/47d/g1a3fd5ojvpt95w3zew3g52tj0rv11mz/1%20(37).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>55</flat_id>
+                    <apartment>55</apartment>
+                    <floor>8</floor>
+                    <room>3</room>
+                    <price>6180480</price>
+                    <area>71.04</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>8.66</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/92c/r9tq4fmjbzt91kw0s706j4ctzf0y6cck/2%20(28).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>56</flat_id>
+                    <apartment>56</apartment>
+                    <floor>8</floor>
+                    <room>1</room>
+                    <price>2197620</price>
+                    <area>25.26</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>4.2</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/17f/l8qfgwzaijjfjwsys0ug3czgrtmllbr2/1%20(35).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>57</flat_id>
+                    <apartment>57</apartment>
+                    <floor>9</floor>
+                    <room>2</room>
+                    <price>3313830</price>
+                    <area>38.09</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>6.24</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/e4b/m0yhakvvklyzxk46gur0abhsgw023i6c/2%20(1).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>58</flat_id>
+                    <apartment>58</apartment>
+                    <floor>9</floor>
+                    <room>2</room>
+                    <price>4555320</price>
+                    <area>52.36</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>10.4</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/847/yhcx83jsf1m8r6nn81cjy0s2sz5f5eps/2%20(2).jpg</plan>
+                    </plans>
+                </flat>
+                <flat>
+                    <flat_id>59</flat_id>
+                    <apartment>59</apartment>
+                    <floor>9</floor>
+                    <room>4</room>
+                    <price>5880330</price>
+                    <area>67.59</area>
+                    <renovation>Без отделки</renovation>
+                    <kitchen_area>6.77</kitchen_area>
+                    <entrance>1</entrance>
+                    <plans>
+                        <plan>https://fl07.ru/upload/uf/18d/4yfrdsd40upvh3y8qadvzonk3xxv4xkt/2%20(3).jpg</plan>
+                    </plans>
+                </flat>
+            </flats>
+
+        </building>
+    </buildings>
+
+    <discounts>
+        <discount>
+            <name>Приведи друга и получи денежный бонус от проведенной сделки.</name>
+            <type>бонусы и подарки</type>
+            <description>Приведи друга и получи денежный бонус от проведенной сделки.</description>
+        </discount>
+    </discounts>
+
+    <description_main>
+        <title>ЛЬГОТНАЯ ИПОТЕКА: СЕМЕЙНАЯ, IT!&#10;ВОЕННАЯ ИПОТЕКА!&#10;ВСЕ ВИДЫ СЕРТИФИКАТОВ!</title>
+        <text>
+            Реализация квартир осуществляется в соответствии с 214-ФЗ "Об участии в долевом строительстве".
+            Договоры долевого участия проходят регистрацию в Росреестре. Ипотека.
+            Разрешение на строительство: 07-09-114-24 от 18.10.24.
+        </text>
+    </description_main>
+
+    <description_secondary>
+        <title>
+            ЖК "Флагман Аква" расположен в новом микрорайоне "Восточный" в окружении величественных гор.
+        </title>
+        <text>
+            Планируется, что в ближайшей перспективе ЖК будет окружен множеством зеленых насаждений.
+        </text>
+    </description_secondary>
+
+    <infrastructure>
+        <parking>Подземная</parking>
+        <security>1</security>
+        <fenced_area>1</fenced_area>
+        <sports_ground>1</sports_ground>
+        <playground>1</playground>
+        <school>1</school>
+        <kindergarten>1</kindergarten>
+    </infrastructure>
+
+    <sales_info>
+        <sales_phone>89887253500</sales_phone>
+       
+        <sales_address>
+            Кабардино-Балкарская Респ, г Нальчик, пр-кт Ленина, д 33
+        </sales_address>
+
+
+    </sales_info>
+
+    <developer>
+        <id>300410</id>
+        <name>СЗ Флагман Инвест</name>
+        <phone>+79887253500</phone>
+        <site>https://fl07.ru/</site>
+        <logo>
+            https://fl07.ru/local/templates/flagman%20invest/assets/images/main-page-logo.svg
+        </logo>
+    </developer>
+
+</complex>
+</complexes>
